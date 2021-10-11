@@ -1,3 +1,6 @@
+#script that takes all assets of S&P500 and makes random portfolios within
+# in order to visualize how the optimization of those portfolios changes 
+# where they lie on the mean-variance frontier.
 rm(list=ls())
 graphics.off()
 library(ggplot2)
